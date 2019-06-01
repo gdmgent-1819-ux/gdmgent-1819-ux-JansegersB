@@ -50,7 +50,7 @@
 /* BANNER HOMEPAGE */
 .banner_homepage {
     background-size: cover;
-    min-height: 550px;
+    min-height: 600px;
 }
 
 /* SECTIONS */
@@ -63,7 +63,7 @@
 .section_text {
     width: 100%;
     max-height: 30vw;
-    padding: 50px 100px; 
+    padding: 50px 100px;
 }
 
 .section_text p {

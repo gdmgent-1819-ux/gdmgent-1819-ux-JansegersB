@@ -1,5 +1,5 @@
 /* Small devices (landscape phones, 768px and lower) */
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 
     .section_text {
         width: 100%;
@@ -21,12 +21,15 @@
     }
 
     .banner_homepage {
-        background-size: contain;
+        background-size: cover;
         min-height: 250px;
+        background-repeat: no-repeat;
     }
 
+
     #logo {
-        margin: 0 auto;
+        position: relative;
+        left: 47%;
     }
 
     header {
@@ -38,9 +41,9 @@
         text-align: center;
     }
 
-    nav ul li{
+    nav ul li {
         display: block;
         padding: 20px 0;
     }
-      
+
 }
