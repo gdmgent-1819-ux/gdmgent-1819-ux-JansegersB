@@ -7,3 +7,113 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+
+/* HEADER */
+
+#logo {
+    width: 72px;
+    height: 60px;
+}
+
+#menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: var(--t-secondary);
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+/* IMAGES */
+#img_banner {
+    background-image: url('../img/banner.jpg');
+    background-position: bottom;
+}
+
+#img_koffer {
+    background-image: url("../img/koffer.jpg");
+    background-position: bottom;
+}
+
+#img_pasta {
+    background-image: url("../img/pesto.jpg");
+}
+
+#img_mojito {
+    background-image: url("../img/mojito.jpg");
+}
+
+#img_promo {
+    background-image: url("../img/promo.jpg");
+    background-position: center;
+}
+
+/* BANNER HOMEPAGE */
+.banner_homepage {
+    background-size: cover;
+    min-height: 550px;
+}
+
+/* SECTIONS */
+.container_flex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-self: flex-start;
+    align-items: stretch;
+}
+
+.section_text {
+    width: 50%;
+    box-sizing: border-box;
+    max-height: 30vw;
+    padding: 50px 100px; 
+}
+
+.section_text p {
+    width: 75%;
+    padding-bottom: 30px;
+}
+
+.section_img {
+    width: 50%;
+    height: 30vw;
+    background-size: cover;
+}
+
+.section_subtitle {
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section_subtitle .icon {
+    width: 96px;
+    height: 82px;
+    padding-bottom: 30px;
+}
+
+.section_banner {
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+}
+
+.section_banner .icon {
+    width: 58px;
+    height: 50px;
+}
+
+.section_row {
+    justify-content: space-between;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+}

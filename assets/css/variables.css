@@ -1,9 +1,20 @@
+@font-face{
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Young';
+  src: url('../fonts/Young.ttf') format('truetype');
+}
 
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+  --c-primary: hsl(80,53%,53%,1);
+  --c-secondary: hsl(0, 0%, 20%);
+  --c-background: hsl(0, 0%, 99%);
 
   /**
    * Layout
@@ -13,8 +24,8 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
+  --t-primary: 'Young', Arial, Helvetica, sans-serif;
+  --t-secondary: 'Lato', Arial, Helvetica, sans-serif;
   --t-tertiary: monospace;
 
   --t-headline: var(--t-primary);

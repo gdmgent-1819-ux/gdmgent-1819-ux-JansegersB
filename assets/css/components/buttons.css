@@ -1,0 +1,15 @@
+.btn {
+    border-radius: 3px;
+    padding: 12px 25px;
+    width: auto;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--c-background);
+    font-family: var(--t-secondary);
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: var(--c-primary);
+}
