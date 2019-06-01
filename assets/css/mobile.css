@@ -1,0 +1,46 @@
+/* Small devices (landscape phones, 768px and lower) */
+@media (max-width: 768px) { 
+
+    .section_text {
+        width: 100%;
+        max-height: 100%;
+        padding: 15px;
+    }
+
+    .section_text p {
+        width: 90%;
+    }
+
+    .section_img {
+        height: 300px;
+        margin: 15px 0;
+    }
+
+    .section_banner {
+        height: 400px;
+    }
+
+    .banner_homepage {
+        background-size: contain;
+        min-height: 250px;
+    }
+
+    #logo {
+        margin: 0 auto;
+    }
+
+    header {
+        height: 300px;
+    }
+
+    nav ul {
+        float: none;
+        text-align: center;
+    }
+
+    nav ul li{
+        display: block;
+        padding: 20px 0;
+    }
+      
+}
